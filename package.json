@@ -4,7 +4,8 @@
   "description": "Sdk for pro-analytics graph apis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/BlockApex/Pro-Analytics-Sdk/issues"
   },
-  "homepage": "https://github.com/BlockApex/Pro-Analytics-Sdk#readme"
+  "homepage": "https://github.com/BlockApex/Pro-Analytics-Sdk#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^18.5.0",
+    "@commitlint/config-conventional": "^18.5.0",
+    "husky": "^8.0.0"
+  }
 }
